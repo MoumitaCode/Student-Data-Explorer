@@ -7,3 +7,6 @@ import "dotenv/config"
 requestHandler.listen(port, () => {
     console.log(`Server listening on port ${port}`);
   });
+requestHandler.get("/api/v1/get-template", (req, res) => {
+    res.send("Hello World!");
+  });
