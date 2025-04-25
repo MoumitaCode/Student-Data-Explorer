@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Education Dashboard</h1>
+      <h1>EquiLang(dummy data)</h1>
       <DropdownMenu onSelect={setSelection} />
       <div id="output">
         {selection === "totalELL" && (
